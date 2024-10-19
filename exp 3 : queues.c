@@ -105,7 +105,7 @@ int main() {
         break;
         }
     printf("\nthe queue is: \n");
-    for(int i=0;i<=rear;i++){
+    for(int i=front;i<=rear;i++){
         printf("%d  ",queque[i]);
     }
     
