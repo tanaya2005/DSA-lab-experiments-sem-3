@@ -108,7 +108,7 @@ int main() {
     for(int i=front;i<=rear;i++){
         printf("%d  ",queque[i]);
     }
-    
+     
     printf("\nchoose another operation or press 7 to exit: \n");
     }while (choice!=7);
     return 0;
