@@ -20,7 +20,7 @@ int main()
     printf("2. pop\n");
     printf("3. check if stack is empty?\n");
     printf("4. check if stack is full\n");
-    printf("5. get top m ost element of stack\n");
+    printf("5. get top most element of stack\n");
     printf("6. exit");
     do{
         printf("\nchoose an operation: ");
@@ -61,7 +61,16 @@ int main()
         printf("please enter a valid option.");
     }
     
+    printf("\nstack is : ");
+    int j=0;
+     while(j<=Top){
+      printf("%d    ", st[j]);
+      j++;
+     }
+     
   } while(choice!=6);
+  
+  
     return 0;
 }
 
